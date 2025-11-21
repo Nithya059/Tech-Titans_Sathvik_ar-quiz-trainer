@@ -1,5 +1,5 @@
 # 📱 AR Quiz Trainer  
-### *Scan. Learn. Score.*
+### *Scan Objects-Learn Smarter*
 
 AR Quiz Trainer is an interactive learning tool that allows students to **scan real lab objects** and instantly **unlock AI-generated quizzes** based on the scanned item. The system uses **on-device machine learning (TensorFlow.js)** to detect objects and trigger context-based questions.
 
