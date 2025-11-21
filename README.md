@@ -179,6 +179,20 @@ No backend is needed.
 - Install **Live Server Extension**
 - Right-click `index.html`
 - Click **Open with Live Server**
+(But camera access may not work without Live Server.)
 
-### **2. Without VS Code**
-Just open:
+---
+
+## 🌍 Hosting (GitHub Pages)
+
+1. Go to  
+   `Settings` → `Pages`
+2. Set  
+   **Source: Deploy from a branch**  
+   **Branch: main**  
+   **Folder: root**
+3. Click **Save**
+4. Wait 10–30 seconds  
+5. Your Live URL becomes available  
+
+Example:
