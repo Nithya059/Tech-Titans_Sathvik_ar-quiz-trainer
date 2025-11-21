@@ -71,8 +71,7 @@ Examples:
   - Recently scanned objects  
   - Past scores  
 
-### **Hosting**
-- GitHub Pages  
+
 
 ---
 
@@ -147,7 +146,7 @@ Examples:
 ---
 
 ## 🧪 Supported Lab Objects (Examples)
-> *Project works with ANY object judges provide.*
+> *Project works with ANY object provide provide.*
 
 Common detections:
 - Beaker  
