@@ -76,4 +76,109 @@ Examples:
 
 ---
 
-## 📂 Project Structure
+## 🧠 How It Works (Flow)
+
+1. User opens the website  
+2. Allows camera access  
+3. Points camera at any lab object  
+4. AI Model (MobileNet) detects the object  
+5. App loads questions related to the detected object  
+6. User answers the quiz  
+7. Score is calculated  
+8. Explanation screen shows correct & wrong answers  
+9. User can save questions to Favourites  
+10. Recently scanned objects are stored  
+11. User can view saved items in Library  
+
+---
+
+## 🖼 Screens Included
+
+### 🏠 1. Home Screen
+- Start Scan  
+- Library  
+- Help  
+
+### 📷 2. Scan Screen
+- Live camera feed  
+- Object detection  
+- “Not Recognized” message if detection fails  
+
+### 📝 3. Quiz Screen
+- Displays questions & options  
+- Next / Previous buttons  
+- Submit only at the end  
+- Total ~20 MCQs  
+
+### 📊 4. Score Screen
+- Shows total score  
+- Shows correct and wrong count  
+
+### 🧾 5. Answer Review Screen
+- Shows correct answer  
+- Shows selected answer  
+- Gives explanation  
+- Save to Favourites button  
+
+### 📚 6. Library Screen
+- Favourites  
+- Recently scanned  
+- Remove options available  
+
+### ❓ 7. Help Screen
+- Detail  
+- Instructions  
+- Back  
+
+---
+
+## 🎯 Key Features Summary
+
+- ✔ AI-driven object detection  
+- ✔ Quiz auto-generated based on detected object  
+- ✔ Scoring system  
+- ✔ Answer review  
+- ✔ Save favourite questions  
+- ✔ Recently scanned object history  
+- ✔ Remove items from favourites  
+- ✔ Works offline after loading (no backend)  
+- ✔ Fully browser-based  
+
+---
+
+## 🧪 Supported Lab Objects (Examples)
+> *Project works with ANY object judges provide.*
+
+Common detections:
+- Beaker  
+- Test Tube  
+- Microscope  
+- Flask  
+- Measuring cylinder  
+- Pipette  
+- Lab tools (more general category)  
+
+Even if the exact object is not in dataset → AI gives the **closest match** and loads related quiz.
+
+---
+
+## 💾 Local Storage Used For
+- Saved questions  
+- Recently scanned objects  
+- User score history  
+- Last scanned object  
+- Favourites list  
+
+No backend is needed.
+
+---
+
+## ▶️ Running the Project Locally
+
+### **1. Using VS Code (Live Server)**
+- Install **Live Server Extension**
+- Right-click `index.html`
+- Click **Open with Live Server**
+
+### **2. Without VS Code**
+Just open:
